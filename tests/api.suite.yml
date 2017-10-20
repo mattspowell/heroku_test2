@@ -1,0 +1,13 @@
+# tests/api.suite.yml
+class_name: ApiTester
+modules:
+  enabled:
+    - \Helper\Api
+    # Add the lines below
+    - REST:
+        # Your base API URL
+        url: http://facebook-ss-sas-bot-web-services.local/
+        # Can also be a framework module name
+        depends: PhpBrowser
+        # Limits PhpBrowser to JSON or XML
+        part: Json

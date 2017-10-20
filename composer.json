@@ -1,0 +1,29 @@
+{
+	"name": "TheUniproGroup/facebook-ss-sas-bot-web-services",
+	"type": "project",
+	"description": "Facebook Messenger Web services for the Specsavers appointment booking bot prototype",
+	"license": "proprietary",
+	"require": {
+		"silex/silex": "~2.0",
+		"monolog/monolog": "~1.11",
+		"doctrine/dbal": "~2.5",
+		"nesbot/Carbon": "~1.21",
+		"euskadi31/cors-service-provider": "~1.0",
+        "fabpot/goutte": "^3.2",
+		"zircote/swagger-php": "~2.0",
+		"jstayton/google-maps-geocoder": "~v2.4.0",
+		"guzzlehttp/guzzle": "~6.2.0",
+		"swiftmailer/swiftmailer": "~v5.4.0"
+	},
+	"require-dev": {
+		"mockery/mockery": "~0.9.1",
+		"codeception/codeception": "^2",
+		"heroku/heroku-buildpack-php": "*",
+		"squizlabs/php_codesniffer": "^2.8"
+	},
+	"autoload": {
+		"psr-0": {
+			"App": "src/"
+		}
+	}
+}
