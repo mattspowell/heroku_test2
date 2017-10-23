@@ -6,6 +6,7 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 
 /**
+
  * The webhooks controller class.
  *
  * @author Joe Savage <joe.savage@theuniprogroup.com>
